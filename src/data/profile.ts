@@ -92,6 +92,23 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'TravOWL',
+    kind: 'Client website · Medical travel',
+    description:
+      'A website for TravOWL, which helps people living in the USA get treatment, health checkups and parent care in India – from a first doctor consultation to the hospital visit.',
+    highlights: [
+      'Hero carousel for each service with a step-by-step "how it works" journey',
+      'Pages for treatment in India, holiday health checkups and parent care',
+      'Hospitals by city, blog, FAQ, patient log-in and a chat assistant',
+      'Light and dark themes, fast and fully responsive',
+    ],
+    tech: ['Next.js', 'React', 'Responsive design', 'SEO'],
+    image: '/projects/travowl.jpg',
+    live: 'https://www.caretravowl.com/',
+    code: '',
+    featured: true,
+  },
+  {
     title: 'Calculator',
     kind: 'Personal project',
     description: 'A clean in-browser calculator for everyday sums – my first project on GitHub.',
@@ -116,7 +133,7 @@ export const experience = [
     place: 'Kiran Reddy Studio',
     period: '2025 – Present',
     points: [
-      'Built and launched the Green Card Overseas website end to end: design, frontend, backend, admin panel, testing and deployment.',
+      'Built and launched client websites end to end – Green Card Overseas and TravOWL: design, frontend, backend, admin panel, testing and deployment.',
       'Work directly with business owners to turn their goals into fast, easy-to-manage websites.',
     ],
   },
