@@ -16,12 +16,12 @@ export const profile = {
   /** Studio / brand name: shown in the menu bar and footer, and used for the credit on client sites. */
   studio: 'Kiran Reddy Studio',
   initials: 'KR',
-  role: 'Full-Stack Web Developer',
+  role: 'Full-Stack Developer & UI/UX Designer',
   headline: 'I build websites that look great and bring in real enquiries.',
   intro:
     'I design and build complete websites end to end – the look and feel, the frontend, the backend, the admin panel and the launch. ' +
     'My latest project is a full website for Green Card Overseas, a study-abroad consultancy, with an animated scroll journey, lead forms and an admin dashboard.',
-  location: '[CITY], India',
+  location: 'Hyderabad, India',
   /** Your photo: put the file in the public/ folder, e.g. public/me.jpg, then write '/me.jpg' here. */
   photo: '/me.jpg',
   /** Your CV as a PDF in public/, e.g. '/Kiran-Reddy-Resume.pdf'. Shows a "Download CV" button. */
@@ -33,18 +33,18 @@ export const profile = {
 export const contact = {
   email: 'kiranreddystudio@gmail.com',
   /** With country code, digits only, e.g. '919876543210'. Used for Call and WhatsApp. */
-  phone: '[PHONE WITH COUNTRY CODE]',
+  phone: '917032810757',
   /** How the number is shown on the page, e.g. '+91 98765 43210'. */
-  phoneDisplay: '[PHONE AS SHOWN]',
+  phoneDisplay: '+91 70328 10757',
 };
 
 /** Profiles shown in the Contact section. Leave '[...]' to hide one. */
 export const links = {
   github: 'https://github.com/kiranreddy002',
-  linkedin: '[LINKEDIN URL]',
+  linkedin: 'https://www.linkedin.com/in/kiranreddy02/',
   leetcode: '[LEETCODE URL]',
   hackerrank: '[HACKERRANK URL]',
-  instagram: '[INSTAGRAM URL]',
+  instagram: 'https://www.instagram.com/kiran_reddy_19/',
 };
 
 /** "What I do" cards under the hero. */
@@ -55,7 +55,7 @@ export const services = [
 ] as const;
 
 export const skillGroups = [
-  { title: 'Frontend', items: ['Next.js', 'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML & CSS', 'Framer Motion', 'Canvas animation'] },
+  { title: 'Frontend & design', items: ['UI/UX design', 'Next.js', 'React', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML & CSS', 'Framer Motion', 'Canvas animation'] },
   { title: 'Backend', items: ['Python', 'FastAPI', 'REST APIs', 'SQL databases', 'Authentication', 'Admin dashboards'] },
   { title: 'Tools & delivery', items: ['Git & GitHub', 'Playwright testing', 'Vercel', 'Render', 'SEO basics', 'Responsive design'] },
 ];
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     ],
     tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python'],
     image: '/projects/greencard.jpg',
-    live: '[GREEN CARD LIVE LINK]',
+    live: 'https://greencardoverseas-dun.vercel.app/',
     code: '',
     featured: true,
   },
@@ -106,18 +106,30 @@ export const projects: Project[] = [
 /** Work history and education, newest first. Entries whose title is still '[...]' are hidden. */
 export const experience = [
   {
+    title: 'Software Engineer & UI/UX Designer',
+    place: '',
+    period: 'Mar 2026 – Present',
+    points: ['Design user interfaces and user flows, and build them into working web features.'],
+  },
+  {
     title: 'Freelance Full-Stack Web Developer',
-    place: 'Self-employed',
-    period: '[START YEAR] – Present',
+    place: 'Kiran Reddy Studio',
+    period: '2025 – Present',
     points: [
       'Built and launched the Green Card Overseas website end to end: design, frontend, backend, admin panel, testing and deployment.',
       'Work directly with business owners to turn their goals into fast, easy-to-manage websites.',
     ],
   },
   {
-    title: '[YOUR DEGREE, e.g. B.Tech in Computer Science]',
-    place: '[COLLEGE NAME]',
-    period: '[YEAR – YEAR]',
+    title: 'Full Stack Python Intern',
+    place: '',
+    period: 'Jun 2025 – Mar 2026',
+    points: ['Built web applications with Python on the backend and modern tools on the frontend.'],
+  },
+  {
+    title: 'Master of Computer Applications (MCA)',
+    place: 'Man Power Development College',
+    period: '2025',
     points: [],
   },
 ];
