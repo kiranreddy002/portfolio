@@ -124,7 +124,7 @@ export const projects: Project[] = [
 export const experience = [
   {
     title: 'Software Engineer & UI/UX Designer',
-    place: '',
+    place: 'BigHammer.ai',
     period: 'Mar 2026 – Present',
     points: ['Design user interfaces and user flows, and build them into working web features.'],
   },
@@ -139,7 +139,7 @@ export const experience = [
   },
   {
     title: 'Full Stack Python Intern',
-    place: '',
+    place: 'BigHammer.ai',
     period: 'Jun 2025 – Mar 2026',
     points: ['Built web applications with Python on the backend and modern tools on the frontend.'],
   },
