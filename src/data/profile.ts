@@ -23,7 +23,7 @@ export const profile = {
     'My latest project is a full website for Green Card Overseas, a study-abroad consultancy, with an animated scroll journey, lead forms and an admin dashboard.',
   location: '[CITY], India',
   /** Your photo: put the file in the public/ folder, e.g. public/me.jpg, then write '/me.jpg' here. */
-  photo: '[PHOTO]',
+  photo: '/me.jpg',
   /** Your CV as a PDF in public/, e.g. '/Kiran-Reddy-Resume.pdf'. Shows a "Download CV" button. */
   resume: '[RESUME PDF]',
   /** Shown as "Available for freelance work" in the hero. Set to false to hide it. */
