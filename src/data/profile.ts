@@ -31,7 +31,7 @@ export const profile = {
 };
 
 export const contact = {
-  email: '[YOUR EMAIL]',
+  email: 'kiranreddystudio@gmail.com',
   /** With country code, digits only, e.g. '919876543210'. Used for Call and WhatsApp. */
   phone: '[PHONE WITH COUNTRY CODE]',
   /** How the number is shown on the page, e.g. '+91 98765 43210'. */
