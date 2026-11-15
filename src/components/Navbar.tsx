@@ -75,7 +75,7 @@ export function Navbar() {
       <div className="container-x flex h-16 items-center justify-between">
         <a href="#home" className="flex items-center gap-2.5 font-display text-lg font-bold text-slate-900 dark:text-white" onClick={() => setOpen(false)}>
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink text-sm text-brand dark:bg-brand dark:text-ink">{profile.initials}</span>
-          {profile.name}
+          {profile.studio}
         </a>
 
         <nav aria-label="Main" className="hidden md:block">

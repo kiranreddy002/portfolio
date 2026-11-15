@@ -13,6 +13,8 @@ export const isSet = (v?: string | null): v is string => !!v && !v.trim().starts
 
 export const profile = {
   name: 'Kiran Reddy',
+  /** Studio / brand name: shown in the menu bar and footer, and used for the credit on client sites. */
+  studio: 'Kiran Reddy Studio',
   initials: 'KR',
   role: 'Full-Stack Web Developer',
   headline: 'I build websites that look great and bring in real enquiries.',

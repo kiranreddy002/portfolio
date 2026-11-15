@@ -1,6 +1,6 @@
-# Kiran Reddy – Portfolio
+# Kiran Reddy Studio – Portfolio
 
-My personal portfolio website: who I am, what I build, my projects and how to reach me.
+The portfolio website of Kiran Reddy Studio: who I am, what I build, my projects and how to reach me.
 
 **Built with:** React, TypeScript, Vite, Tailwind CSS · light and dark themes · mobile-first.
 
